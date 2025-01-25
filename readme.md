@@ -4,10 +4,13 @@
 
 - app, utils
 - app / engine - static library
-- Makefile
+- premake
+  - scripts/setup-linux.sh
+  - make
+  - make config=release
 - nvim compiler solution file
-    - .solution.toml
+  - .solution.toml
 - nvim clangd lsp
-    - .clang-format
-    - .clang-tidy
-    - compile_flags.txt
+  - .clang-format
+  - .clang-tidy
+  - compile_flags.txt
