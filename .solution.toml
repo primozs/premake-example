@@ -2,7 +2,7 @@
 entry_point = "./app/src/main.cpp"
 files = "./app/src/*.cpp"
 output = "./bin/program"
-arguments = "-ggdb -I./engine/src -L./bin/linux-x86_64/Debug/engine -lengine -std=c++20 -Wall -Wextra -Wfloat-equal -Wshadow -Wconversion -Wpedantic -fsanitize=undefined,address"
+arguments = "-ggdb -I./engine/src -L./bin/linux-x86_64/Debug/engine -lengine -std=c++20 -Wall -Wextra -Wfloat-equal -Wshadow -Wconversion -Wpedantic -Werror=type-limits -fsanitize=undefined,address"
 
 [SOLUTION]
 executable = "./bin/program"
